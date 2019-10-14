@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GTM Workshop</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-8">
+                <a class="navbar-brand" href="/">Arezzo</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#conteudoNavbarSuportado"
+                  aria-controls="conteudoNavbarSuportado"
+                  aria-expanded="false"
+                  aria-label="Alterna navegação"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="col-4">
+                <form
+                  class="form-inline my-2 my-lg-0 justify-content-end"
+                  action="search.html"
+                >
+                  <input
+                    name="q"
+                    class="form-control mr-sm-2"
+                    type="search"
+                    placeholder="Pesquisar"
+                    aria-label="Pesquisar"
+                  />
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                    Pesquisar
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app">
+      <div id="banner" class="container">
+        <div class="row">
+          <div class="col-4">
+            <img
+              class="w-100"
+              src="https://secure-static.arezzo.com.br/medias/sys_master/images/images/hdf/h95/h00/h00/9260961136670/BannerTriplo1-home.jpg"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="w-100"
+              src="https://secure-static.arezzo.com.br/medias/sys_master/images/images/h61/h07/h00/h00/9260961202206/BannerTriplo2-home.jpg"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="w-100"
+              src="https://secure-static.arezzo.com.br/medias/sys_master/images/images/h5e/h25/h00/h00/9260961431582/BannerTriplo3-home.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="navbar navbar-dark bg-dark text-light">
+        Footer
+      </div>
+    </footer>
+
+    <!-- Google Tag Manager -->
+    <script>
+      ;(function(w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-P3TK7SM')
+    </script>
+    <!-- End Google Tag Manager -->
+  </body>
+</html>

@@ -1,0 +1,85 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-10-14 17:49:08",
+    "containerVersion": {
+        "path": "accounts/4703028598/containers/13189636/versions/0",
+        "accountId": "4703028598",
+        "containerId": "13189636",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/4703028598/containers/13189636",
+            "accountId": "4703028598",
+            "containerId": "13189636",
+            "name": "GTM Workshop - Arezzo",
+            "publicId": "GTM-P3TK7SM",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1571075196335",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4703028598/containers/13189636/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "tagId": "1",
+                "name": "Design Changes - Change footer copyright text",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script id=\"gtm-change-footer-copyright-text\">\n  (function() {\n    var footer = document.querySelector('#footer .navbar.navbar-dark')\n\tfooter.innerText = 'Arezzo - 2019'\n  })()\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1571075315556",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "4703028598",
+                "containerId": "13189636",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4703028598/containers/13189636/versions/0?apiLink=version"
+    }
+}
